@@ -12,8 +12,16 @@ body {
 */}
 
 /*.collection-card {
-    margin-top: 0px;
+
 }*/
+
+.card-body {
+    height: 250px;
+}
+
+.detail {
+    margin-top: 20px;
+}
 
 .detail>div {
     margin-top: 10px;
@@ -23,7 +31,7 @@ body {
     font-size: 16px;
 }
 
-.search-bar {
+.search-bar, #dropbox-btn {
     margin-top: 10px;
 }
 

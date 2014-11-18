@@ -16,7 +16,7 @@ $(document).ready(function () {
 		//$.templates('#card-tmpl').link('#card', data);
 	});
 
-	$('#search-bar').keyup(function(event) {
+	$('#search-bar').keydown(function(event) {
 		var input = $(this).val();
 		//console.log($(this).val().length);
 		// if (input.length === 0) {
@@ -34,5 +34,25 @@ $(document).ready(function () {
 		});
 	});
 
+	// var APP_KEY = 'en6zleikr2tu4v9';
+
+	// var client = new Dropbox.Client({key: APP_KEY});
+	// console.log(client);
+
+	// // Try to finish OAuth authorization.
+	// client.authenticate({interactive: false}, function (error) {
+	//     if (error) {
+	//         console.log('Authentication error: ' + error);
+	//     }
+	// });
+
+	// if (client.isAuthenticated()) {
+	// 	console.log('Authentication ok');
+	//     // Client is authenticated. Display UI.
+	// }
+
+	// $('#dropbox-btn').click(function(event) {
+	// 	client.authenticate();
+	// });
 
 });
