@@ -16,7 +16,7 @@ $(document).ready(function () {
 		//$.templates('#card-tmpl').link('#card', data);
 	});
 
-	$('#search-bar').keydown(function(event) {
+	$('#search-bar').keyup(function(event) {
 		var input = $(this).val();
 		//console.log($(this).val().length);
 		// if (input.length === 0) {
