@@ -1,0 +1,20 @@
+{
+  "name": "acnl",
+  "version": "1.0.0",
+  "homepage": "https://github.com/garykb8/acnl",
+  "authors": [
+    "Weilin Chen <garykb8@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "jsviews": "~1.0.0-alpha"
+  }
+}
