@@ -6,10 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>Demo</title>
 
-	<!--
+	
 	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	-->
+	
+	<!--
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	-->
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body>
@@ -91,6 +93,16 @@
 					<h3 class="panel-title name">{{:name}}</h3>
 				</div>
 				<div class="panel-body card-body">
+					<div class="check-status pull-left">
+						<label class="checkbox-inline">
+							<input type="checkbox" id="own">
+							<img src="data/symbol.svg" class="own-icon">
+						</label>
+						<label class="checkbox-inline">
+							<input type="checkbox" id="museum">
+							<img src="data/museum.png" class="museum-icon">
+						</label>
+					</div>
 					<div class="pull-right">
 						<img src="data/bugs/icons/acnl_bug_{{>#index + 1}}.png">
 					</div>
@@ -116,15 +128,20 @@
 		</div>
 	</script>	
 
-	<!--
+	
 	<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/jsrender/1.0pre35/jsrender.min.js"></script>
 	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	
+
+
+	<!--
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/jsviews/jsrender.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	-->
-
-
-	<script type="text/javascript" data-main="js/main" src="js/require.js"></script>
 	<script type="text/javascript" src="js/dropbox-js-datastore-sdk-1.2.0/lib/dropbox-datastores-1.2.0.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
