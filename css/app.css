@@ -20,7 +20,7 @@ body {
 }
 
 .detail {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .detail > div {
@@ -31,13 +31,18 @@ body {
     font-size: 16px;
 }
 
-.search-bar, #dropbox-btn {
+.search-bar, #dropbox-btn, .filter-bar {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.search-bar>input {
-    width: 150px;
+.filter-bar {
+    width: 293px;
 }
+
+/*.search-bar>input {
+    width: 150px;
+}*/
 
 .check-status {
     margin-top: 10px;
@@ -47,11 +52,23 @@ body {
     width: 40px;
 }
 
+.filter-own-icon {
+    width: 19px;
+}
+
 .museum-icon {
     width: 37px;
 }
 
-.check-status > label > input[type=checkbox] {
+.filter-museum-icon {
+    width: 21px;
+}
+
+.check-status > label:nth-child(1) > input[type=checkbox] {
+    margin-top: 9px;
+}
+
+.check-status > label:nth-child(2) > input[type=checkbox] {
     margin-top: 11px;
 }
 
