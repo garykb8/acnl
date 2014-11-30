@@ -1,0 +1,17 @@
+extends ../index.jade
+
+block content
+  .container
+    .row
+      .col-xs-12.col-sm-12.col-md-12
+        //
+          button.btn.btn-primary#dropbox-btn(type="button") Link to DropBox
+        .form-group.search-bar.pull-right
+            input.form-control#search-bar(type="text", placeholder="Search")
+
+      #card
+
+
+block template
+  script#card-tmpl(type="text/x-jsrender")
+    include bug_detail.jade
